@@ -1,0 +1,17 @@
+{
+  "name": "mimotobc-web",
+  "description": "Mimoto Business Card Website",
+  "main": "gulpfile.js",
+  "authors": [
+    "elliottjro <shwodkro@gmail.com>"
+  ],
+  "license": "UNLICENSED",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
