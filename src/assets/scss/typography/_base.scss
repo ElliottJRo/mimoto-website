@@ -296,7 +296,7 @@ $abbr-underline: 1px dotted $black !default;
     margin-bottom: $header-margin-bottom;
     line-height: $header-lineheight;
     text-transform: uppercase;
-    
+
     small {
       color: $header-small-font-color;
       line-height: 0;
@@ -309,6 +309,7 @@ $abbr-underline: 1px dotted $black !default;
       @each $header, $font-size in $headers {
         #{$header} {
           font-size: rem-calc($font-size);
+          letter-spacing: rem-calc($font-size/8);
         }
       }
     }

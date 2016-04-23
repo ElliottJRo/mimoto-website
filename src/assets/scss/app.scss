@@ -4,8 +4,15 @@
 @import 'foundation';
 @import 'motion-ui';
 
+// ******************* Mimoto
+
 @import 'typography/typography';
+@import 'components/top-bar';
 @include mimoto-typography;
+@include mimoto-top-bar;
+
+
+// ****************** Foundation
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -44,7 +51,7 @@
 @include foundation-thumbnail;
 @include foundation-title-bar;
 @include foundation-tooltip;
-@include foundation-top-bar;
+// @include foundation-top-bar;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
 // @include foundation-flex-classes;
