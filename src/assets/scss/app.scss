@@ -11,12 +11,14 @@
 @include mimoto-typography;
 @include mimoto-top-bar;
 
+@import 'mimoto-theme';
 
 // ****************** Foundation
 
 @include foundation-global-styles;
-@include foundation-grid;
-// @include foundation-flex-grid;
+// @include foundation-grid;
+@include foundation-flex-classes;
+@include foundation-flex-grid;
 // @include mimoto-typography;
 @include foundation-button;
 @include foundation-forms;
@@ -54,7 +56,6 @@
 // @include foundation-top-bar;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
-// @include foundation-flex-classes;
 
 @include motion-ui-transitions;
 @include motion-ui-animations;

@@ -1,0 +1,15 @@
+.row.row-black {
+  background-color: $black;
+  //background-color: map-get($foundation-palette, secondary);
+  * {
+    color: $white;
+  }
+}
+.row.row-white {
+
+}
+
+.row-white,
+.row-black {
+  padding: 55px 0px;
+}
